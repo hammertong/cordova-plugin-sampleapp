@@ -1,11 +1,15 @@
 # Sample App for Elkron Web API testing
 
+## References
 
-https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html
-https://www.oracle.com/java/technologies/downloads/#java11
+- https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html
+- https://www.oracle.com/java/technologies/downloads/#java11
 
+```bash
 cordova platform add android@11.0.0
+```
 
+```text
 Using cordova-fetch for cordova-android@11.0.0
 Adding android project...
 Creating Cordova project for the Android platform:
@@ -18,10 +22,11 @@ Creating Cordova project for the Android platform:
 Subproject Path: CordovaLib
 Subproject Path: app
 Android project created with cordova-android@11.0.0
+```
 
-
+```bash
 cordova plugin add https://github.com/hammertong/cordova-plugin-elkron.git
 cordova plugin update https://github.com/hammertong/cordova-plugin-elkron.git
-
+```
 
 
